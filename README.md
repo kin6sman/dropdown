@@ -8,6 +8,9 @@ This project is a React component that implements a dropdown menu. It provides a
 - Keyboard navigation and accessibility
 - Event handling for menu item selection
 - Styling customization through CSS or CSS-in-JS libraries
+
+![image](https://github.com/kin6sman/dropdown/assets/88446494/e7e0e6e9-1140-45d1-905c-e60f8279cf57)
+
 # Installation
 To use the React Dropdown Menu component in your project, follow these steps:
 
