@@ -1,5 +1,10 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -13,20 +18,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +27,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown.open .dropdown-button {
+  background-color: rgb(1, 4, 2);
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(79, 79, 201);
+  list-style: none;
+  text-align: center;
+}
+
+.dropdown-list li {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
